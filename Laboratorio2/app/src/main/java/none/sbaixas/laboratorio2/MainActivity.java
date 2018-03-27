@@ -25,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
                     FormFragment fragment = new FormFragment();
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_frame, fragment).commit();
                 }
+                else if(item.getItemId()==R.id.nav_counter){
+                    Counter fragment = new Counter();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_frame, fragment).commit();
+                }
                 drawerLayout.closeDrawers();
                 return true;
             }

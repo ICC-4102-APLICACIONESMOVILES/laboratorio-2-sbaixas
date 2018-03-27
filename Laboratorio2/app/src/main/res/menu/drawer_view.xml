@@ -5,6 +5,10 @@
             android:id="@+id/nav_form"
             android:icon="@drawable/ic_form"
             android:title="@string/camera" />
+        <item
+            android:id="@+id/nav_counter"
+            android:icon="@drawable/ic_form"
+            android:title="counter" />
     </group>
 
 </menu>
